@@ -1,0 +1,19 @@
+
+[
+    {
+      "label": "Pastas",
+      "id": 1
+    },
+    {
+      "label": "Meat",
+      "id": 2
+    },
+    {
+      "label": "Combos",
+      "id": 3
+    },
+    {
+      "label": "Veg",
+      "id": 4
+    }
+  ]
