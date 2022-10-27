@@ -5,12 +5,12 @@
       "value": ""
     },
     {
-      "name": "Portion",
-      "value": "portion"
-    },
-    {
       "name": "Size",
       "value": "size"
+    },
+    {
+      "name": "Serving",
+      "value": "serving"
     },
     {
       "name": "Price",
