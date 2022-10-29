@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "normalize.css";
+import 'normalize.css';
 import './index.css';
-import { Menu } from 'pages/Menu';
+import Router from './routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Menu />
+    <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );
