@@ -2,6 +2,8 @@ import styles from './Dish.module.scss';
 import { useParams, useNavigate } from 'react-router-dom';
 import menu from 'data/menu.json';
 import { TagsDish } from 'components/TagsDish';
+import { NotFound } from 'pages/NotFound';
+import { DefaultPage } from 'components/DefaultPage';
 
 export function Dish() {
   const { id } = useParams();
@@ -9,10 +11,10 @@ export function Dish() {
   const dish = menu.find(item => item.id === Number(id));
 
   if(!dish) {
-    return '';
+    return <NotFound />;
   }
   return (
-    <>
+    <DefaultPage>
       <button className={styles.back} onClick={() => navigate(-1)}>
         {'< Back'}
       </button>
@@ -28,6 +30,6 @@ export function Dish() {
           <TagsDish {...dish} />
         </div>
       </section>
-    </>
+    </DefaultPage>
   );
 }
