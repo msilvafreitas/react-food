@@ -4,7 +4,7 @@ import { Navbar } from 'components/Navbar';
 import { About } from 'pages/About';
 import { Dish } from 'pages/Dish';
 import { Home } from 'pages/Home';
-import { Menu } from 'pages/Menu';
+import { Menu } from 'pages/Catalog';
 import { NotFound } from 'pages/NotFound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 

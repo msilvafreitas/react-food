@@ -8,7 +8,7 @@ export function DefaultPage({ children }: { children?: React.ReactNode }) {
     <>
       <header className={styles.header}>
         <div className={styles.header__text}>
-          Find your next reactive meal!
+          Find your next product here!
         </div>
       </header>
       <div className={stylesTheme.container}>

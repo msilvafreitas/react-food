@@ -7,8 +7,8 @@ export function Navbar() {
     label: 'Home',
     to: '/'
   }, {
-    label: 'Menu',
-    to: '/menu'
+    label: 'Catalog',
+    to: '/catalog'
   }, {
     label: 'About',
     to: '/about'
