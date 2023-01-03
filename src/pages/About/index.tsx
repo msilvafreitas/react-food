@@ -14,13 +14,13 @@ export function About() {
         <img src={casa} alt="React Food" />
         <div className={styles.aboutUs__text}>
           <p>
-            Nós do Aluroni oferecemos a vocês, nossos queridos clientes, a Massa Italiana Caseira mais saborosa e sofisticada de São Paulo! Prezamos pelos ingredientes tradicionais da culinária Italiana, frescos e de excelente qualidade para que sua experiência seja ainda mais intensa!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit amet cumque repudiandae doloribus adipisci. Debitis quidem, tempora blanditiis error facere tempore cumque ex reprehenderit eum minus. Nisi, saepe alias. Amet.
           </p>
           <p>
-            Também possuímos uma cardápio de carnes com muitas opções de acordo com o seu gosto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           </p>
           <p>
-            Para acompanhar as massas italianas, Aluroni possui uma reserva de vinhos especiais, que harmonizam perfeitamente com o seu parto, seja carne ou massa!
+          Impedit amet cumque repudiandae doloribus adipisci.
           </p>
         </div>
       </div>
